@@ -56,11 +56,22 @@ cd tools
 # pycparser for pwndbg
 sudo -H pip3 install pycparser # Use pip3 for Python3
 
-# Install pwndbg latest version 
-cd ~/tools 
-git clone --recursive https://github.com/pwndbg/pwndbg
-cd pwndbg 
-sudo ./setup.sh 
+### change pwndbg to pwngdb + peda ###
+
+## Install pwndbg latest version 
+#cd ~/tools 
+#git clone --recursive https://github.com/pwndbg/pwndbg
+#cd pwndbg 
+#sudo ./setup.sh 
+
+# Install peda 
+cd ~/tools
+git clone --recursive https://github.com/longld/peda.git peda.git
+
+#Install Pwngdb
+cd ~/tools
+git clone --recursive https://github.com/cheesechoi/Pwngdb.git Pwngdb.git
+cp ~/tools/Pwngdb.git/.gdbinit ~/
 
 # Install radare2
 cd ~/tools
