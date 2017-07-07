@@ -2,7 +2,7 @@
  This is a Ubuntu VM tailored for hardware hacking, RE and Wargaming.
 
 ## Tools included
-*  Pwndbg
+*  ~~Pwndbg~~ Pwngdb + peda
 *  Pwntools
 *  Binwalk
 *  Radare2 
