@@ -70,7 +70,7 @@ git clone --recursive https://github.com/longld/peda.git peda.git
 
 #Install Pwngdb
 cd ~/tools
-git clone --recursive https://github.com/cheesechoi/Pwngdb.git Pwngdb.git
+git clone --recursive https://git.null2root.org/cheese/Pwngdb.git Pwngdb.git
 cp ~/tools/Pwngdb.git/.gdbinit ~/
 
 # Install radare2
